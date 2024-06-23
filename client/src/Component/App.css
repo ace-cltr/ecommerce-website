@@ -1,0 +1,541 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: Bogart-med;
+}
+#postion {
+  position: sticky;
+  z-index: 10;
+
+  top: 0;
+}
+
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+  background-color: #e3e6e6;
+
+  gap: 20px;
+}
+.home .mobileproduct .innerbox {
+  height: 100%;
+  width: 300px;
+  transition: all;
+}
+.home .mobileproduct {
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  height: auto;
+  max-width: 500px;
+  min-width: auto;
+  transition: transform 0.3s ease;
+}
+
+.home .mobileproduct:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+}
+
+.home .mobileproduct .innerbox div img {
+  width: 45%;
+  height: 20vh;
+}
+p {
+  margin-top: 0;
+}
+.home .mobileproduct .innerbox button {
+  width: 150px;
+  background-color: orange;
+  border-radius: 10px;
+  color: white;
+  height: 30px;
+  margin-bottom: 10px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+
+  color: white;
+  flex-wrap: wrap;
+  height: max-content; /* This allows the footer to adjust based on its content */
+}
+
+footer div ul {
+  list-style: none;
+  padding: 10px;
+}
+
+footer div ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.productdetail {
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.productdetail div h4 {
+  word-wrap: break-word;
+}
+/* .productdetail .productimage {
+  width: 50%;
+} */
+.productdetail .productimage img {
+  width: 100%;
+  text-align: center;
+  height: 400px;
+  /* box-shadow: -2px 4px 43px 2px gray; */
+  border-radius: 20px;
+  margin-right: 20px;
+
+  margin-bottom: 20px;
+}
+.productdetail .detail {
+  margin-bottom: 30px;
+  width: 50%;
+}
+.productdetail .detail button {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+.mobileproductdetail {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.mobileproductdetail .innerbox {
+  width: 340px;
+  text-align: center;
+}
+
+.mobileproductdetail .innerbox button {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  width: 200px;
+}
+.mobileproduct .innerbox div .image99 {
+  width: 100%;
+}
+.mobileproduct .innerbox p {
+  margin-bottom: 0px;
+}
+.mobileproduct .innerbox h5 {
+  margin-bottom: 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+  font-size: 20px;
+
+  color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: green;
+}
+
+.navbar-expand-lg {
+  background-color: #232f3e;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 27px;
+  margin-top: 13px;
+}
+
+.slider {
+  margin: 0 20px;
+  overflow: hidden;
+  padding: 2rem 0;
+  transition: transform 0.3s ease; /* Add transition for transform */
+}
+
+.slider:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+}
+
+.slider img {
+  width: 100%;
+  border-radius: 10px;
+}
+.slider p {
+  margin-bottom: 0px;
+}
+.slider h5 {
+  margin-bottom: 0px;
+}
+
+.react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button {
+  border: none;
+  background: rgb(255, 68, 68);
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button {
+  background: rgb(255, 68, 68) !important;
+}
+
+.parent {
+  background-color: #e3e6e6;
+
+  padding: 20px;
+}
+
+.parent .slider img {
+  height: 200px;
+  width: 80%;
+}
+.parent .slider {
+  height: 328px;
+  background-color: white;
+
+  text-align: center;
+}
+.parent .slider button {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  width: 50%;
+}
+
+/* -----------------------cart------- */
+.logo {
+  display: none;
+}
+.cart {
+  display: flex;
+  background-color: #131921;
+
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+.value {
+  width: 200px;
+  border: 0.5px solid black;
+  height: 100%;
+}
+
+.d-flex {
+  width: 600px;
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+}
+.d-flex button {
+  background-color: white;
+}
+.d-flex h3 {
+  color: white;
+}
+.d-flex a i {
+  color: white;
+  margin-top: 17px;
+}
+.flex {
+  display: flex;
+  gap: 5px;
+}
+sup {
+  font-weight: bold;
+  font-size: 22px;
+}
+.form-control {
+  width: 100%;
+  border: 1px solid black;
+}
+/* ---------------navbar------------ */
+/* ---------------------------------order-------------------------- */
+
+.parent-cont {
+  display: flex;
+
+  background-color: #e3e6e6;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.child-cont {
+  padding: 10px;
+  margin-top: 20px;
+  width: 500px;
+  height: 20%;
+}
+.first-cont {
+  width: 50%;
+}
+.first-cont img {
+  width: 100%;
+}
+.second-cont {
+  width: 50%;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.second-cont div .button {
+  width: 100px;
+  background-color: black;
+  background-color: rgb(255, 63, 108);
+  border: 2px solid rgb(255, 63, 108);
+  color: white;
+  justify-content: center;
+
+  font-weight: bolder;
+  font-size: x-large;
+}
+.second-cont div {
+  height: auto;
+  width: 80%;
+  gap: 5px;
+  margin-bottom: 0px;
+  display: flex;
+}
+.second-cont p {
+  margin-bottom: 0px;
+}
+
+.remove button {
+  width: 100%;
+  height: 32px;
+  margin-top: 7px;
+  background-color: rgb(255, 63, 108);
+  border: 2px solid rgb(255, 63, 108);
+  color: white;
+}
+.amount {
+  margin-top: 20px;
+}
+.amount table {
+  text-align: center;
+}
+tr {
+  padding-bottom: 10px;
+}
+.amount button {
+  margin-top: 10px;
+  background-color: rgb(255, 63, 108);
+  color: white;
+  height: 54px;
+  width: 100%;
+  margin-bottom: 30px;
+  border: 2px solid rgb(255, 63, 108);
+  font-size: x-large;
+  text-align: center;
+}
+table {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  transition: transform 0.3s ease;
+}
+.container:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+}
+
+.sales {
+  text-align: center;
+  font-weight: bold;
+}
+
+@keyframes emptyCartAnimation {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.1);
+  }
+}
+
+.empty-cart {
+  text-align: center;
+  font-size: 24px;
+  color: #555;
+  margin-top: 20px;
+}
+
+.empty-cart img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  animation: emptyCartAnimation 1s infinite;
+}
+
+.empty-cart p {
+  margin: 0;
+  font-weight: bolder;
+}
+/* -----------------------api */
+.dropdown1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-toggle {
+  display: flex;
+}
+
+.nav-item2 {
+  display: none;
+}
+
+/* -------------------login and logout render----- */
+
+.login a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.login {
+  width: 112px;
+  margin-top: -11px;
+}
+
+/* ------------------------------------styling the seacrch bar------------------------ */
+.input-group1 {
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  background-color: white;
+  color: #131921;
+  position: absolute;
+  z-index: 23;
+
+  margin-top: 46px;
+}
+.list ul {
+  list-style: none;
+  width: 100%;
+}
+.list ul a {
+  text-decoration: none;
+  color: black;
+
+  word-wrap: break-word;
+}
+
+/* -----------------------------sucess-------------- */
+
+/* In your App.css or a separate CSS file */
+.success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: #f2f2f2;
+}
+
+.success-image {
+  height: 250px;
+  width: 250px;
+
+  animation: bounce 1s infinite alternate;
+}
+/* -----------user---------------- */
+.username h4 {
+  color: white;
+  text-decoration: none;
+  font-size: 33px;
+  text-align: center;
+}
+
+.username {
+  display: flex;
+  height: 90%;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 5px;
+  background-color: rgb(0, 145, 255);
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@media screen and (max-width: 753px) and (min-width: 300px) {
+  #carouselExampleAutoplaying .carousel-inner .carousel-item img {
+    height: 300px;
+  }
+  .home .mobileproduct .innerbox {
+    width: 280px;
+  }
+
+  .productdetail .detail {
+    width: 100%;
+  }
+
+  .ads {
+    height: 100px;
+  }
+
+  .home .mobileproduct {
+    max-width: 300px;
+    min-width: auto;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+  .cart {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    gap: 10px;
+  }
+  .flex a .btn {
+    width: 100%;
+  }
+  .flex a img {
+    width: 100%;
+  }
+  .child-cont {
+    width: 80%;
+  }
+  .amount {
+    width: 80%;
+  }
+  .amount table {
+    width: 100%;
+  }
+  .logo {
+    display: block;
+  }
+}
